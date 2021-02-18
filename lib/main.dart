@@ -27,6 +27,7 @@ class Main extends StatelessWidget {
           padding: EdgeInsets.all(10),
           child: ListView(
             children: <Widget>[
+              //Card Name
               Container(
                   padding: EdgeInsets.all(10),
                   child: TextField(
@@ -48,6 +49,8 @@ class Main extends StatelessWidget {
                       ),
                     ),
                   )),
+              // End Card Name
+              // Number Card
               Container(
                   padding: EdgeInsets.all(10),
                   child: TextField(
@@ -75,6 +78,8 @@ class Main extends StatelessWidget {
                       ),
                     ),
                   )),
+              // End Number Card
+              // CVV
               Container(
                   padding: EdgeInsets.all(10),
                   child: TextField(
@@ -101,6 +106,8 @@ class Main extends StatelessWidget {
                       ),
                     ),
                   )),
+              // End CVV
+              // Expiry Date
               Container(
                   padding: EdgeInsets.all(10),
                   child: TextField(
@@ -129,6 +136,7 @@ class Main extends StatelessWidget {
                       ),
                     ),
                   )),
+              // End Expiry Date
               Container(
                   padding: EdgeInsets.all(50),
                   child: RaisedButton(
